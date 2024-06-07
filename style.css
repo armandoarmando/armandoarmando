@@ -27,3 +27,23 @@ font-size: 28px;}
 body{border: 10px solid blue ;
     height:100%;}
 
+    footer{
+        position:absolute;
+        bottom:0;
+        margin-bottom: -20xp;
+    }
+    
+    section#galeria div{display: flex;
+    justify-content:center;
+flex-wrap:wrap;}
+
+section#galeria figure{
+    border: 1px solid rgb(128, 135, 240)
+}
+section#galeria figcaption italic  
+section#galeria img{width: 300px;}
+    
+    section#galeria img:hover{
+        transform: scale(1.1);
+        
+    }
