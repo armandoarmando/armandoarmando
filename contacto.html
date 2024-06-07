@@ -15,17 +15,23 @@
 </ul></nav></header>
 
     <main>
-        <section id=" greetings">
-            <h1> Welcome</h1>
-            <p>Esta es nuestro proyect de fin de curso</p>
-        </section>
-        <section id="news">
-            <article>
-                <h2>Ganadores de las EEUU</h2>
-            <p class=" fecha de publicacion"></p>: 5 Junio 2024</p>
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fes-es%2Fbuscar%2Ffondo%2520de%2520pantalla%2520gratis%2F&psig=AOvVaw3n_AgYJamIwqPUiKVrOQka&ust=1717777937695000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKCHtNCzx4YDFQAAAAAdAAAAABAE" alt="Berlin wall" class ="imagen noticia">
-            <p>aslkjfgnaoer´gmaertgmno</p></article>
-    </main>
+        <form action="gracias.html">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" title="Solo nombres en mayúsculas" required>
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos" title="Sin guiones" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Escribe tu correo" required>
+            <br>
+            <label for="comentarios">Escribe tu comentario:</label>
+            <textarea name="comentarios" id="comentarios" required></textarea>
+            <br>
+            <button type="reset">Borrar</button>
+            <button type="submit">Enviar</button>
+        </form>
+        </main>
     <footer>
         <p>Derechos reservados &copy;2024</p>
     </footer>
